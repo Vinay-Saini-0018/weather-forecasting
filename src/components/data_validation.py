@@ -33,8 +33,8 @@ class validation:
         except Exception as e:
             raise CustomException(e,sys)
         
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     data = data_ingestion().Ing_data()
     validation= validation().validate(data)
-    print(validation)
+    print(validation)'''
         

@@ -2,10 +2,11 @@ import pandas as pd
 import sys
 from src.exception import CustomException
 from dataclasses import dataclass
+import config
 
 @dataclass
 class Ingestionconfig:
-    data_location: str = "data/raw/Weather forecast data.csv"
+    data_location: str = config.data_location
 
 class data_ingestion:
     def __init__(self):
@@ -19,8 +20,10 @@ class data_ingestion:
         
         except Exception as e:
             raise CustomException(e,sys)
-        
-        
+
+'''
 if __name__ == "__main__":
     data_ingestion = data_ingestion()
-    print(data_ingestion.Ing_data())
+    print(data_ingestion.Ing_data())    
+'''
+    
