@@ -2,11 +2,11 @@
 
 A machine learning-based weather forecasting system that predicts whether it will rain or not. This intelligent system analyzes real weather data including temperature, humidity, wind speed, cloud cover, and air pressure to make accurate rain predictions.
 
-## 🌟 Live Demo
+##  Live Demo
 
 Not live
 
-## 📖 About The Project
+##  About The Project
 
 Weather prediction is crucial for planning daily activities, agriculture, aviation, and many other sectors. This project uses machine learning algorithms to predict rain probability based on multiple weather parameters. Simply input the current weather conditions, and the system will tell you whether it's likely to rain or not!
 
@@ -14,7 +14,7 @@ Weather prediction is crucial for planning daily activities, agriculture, aviati
 
 The system uses **Machine Learning Classification Models** trained on historical weather data. By analyzing patterns in temperature, humidity, wind speed, cloud cover, and atmospheric pressure, the model can accurately predict the likelihood of rainfall.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python** - Core programming language
 - **Flask** - Web framework for the application
@@ -26,7 +26,7 @@ The system uses **Machine Learning Classification Models** trained on historical
 - **HTML/CSS** - Frontend interface
 
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these simple steps to run the project on your local machine:
 
@@ -57,7 +57,7 @@ Make sure you have Python installed on your system. You can download it from [py
    Navigate to http://127.0.0.1:5000/ in your web browser
 ```
 
-## 💡 How to Use
+## How to Use
 
 1. **Launch the Application**: Open the web app in your browser
 2. **Enter Weather Data**: Fill in the form with current weather conditions
@@ -70,7 +70,7 @@ Make sure you have Python installed on your system. You can download it from [py
 4. **View Result**: See if it will rain or not, along with confidence level
 
 
-## 🧠 Model Development Process
+## Model Development Process
 
 ### Step-by-Step Process:
 
@@ -106,7 +106,7 @@ Make sure you have Python installed on your system. You can download it from [py
    - Created Flask web application
    - Integrated model for real-time predictions
 
-## 🎯 Model Performance
+## Model Performance
 
 - **Algorithm**: Classification Model (Random Forest/Logistic Regression/Decision Tree)
 - **Accuracy**: High accuracy on test data
@@ -114,7 +114,7 @@ Make sure you have Python installed on your system. You can download it from [py
 - **Training Data**: Historical weather data with rain labels
 - **Prediction Speed**: Real-time (< 1 second)
 
-## 📈 Features & Improvements
+## Features & Improvements
 
 ### Current Features:
 - ✅ Rain prediction based on 5+ weather parameters
